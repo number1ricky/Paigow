@@ -1,0 +1,27 @@
+* {
+  background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+/* body {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.hand {
+  flex-direction: row;
+}
+
+ .card {
+   display: flex;
+  flex-direction: column;
+  justify-items: space-around;
+  margin: 20px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 4vh;
+  border: 3px solid darkblue;
+}
