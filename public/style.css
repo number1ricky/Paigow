@@ -1,17 +1,22 @@
 
 
-/* body {
-    background-color: aqua;
-    display: flex;
-    flex-wrap: wrap;
-} */
+.main {
+  background-color: aqua;
+}
 
 .hand {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  min-width: max-content;
 }
 
  .card {
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content:space-around;
+  width: 8rem;
   padding: fit-content;
   margin: 0 2vw 2vw 2vw;
   border: #333 1px solid;
@@ -20,5 +25,11 @@
   text-decoration: none;
   text-align: center;
   box-shadow: 2px 2px 3px #333;
-  background-color: rgba(253, 136, 40, 0.95);
+  background-color: white;
+}
+
+.symbol {
+  font-size: 2rem;
+  margin: 1rem;
+  max-height: 25%;
 }

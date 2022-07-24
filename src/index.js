@@ -51,7 +51,7 @@ const Main = ({deck, traditionalCardDeck}) => {
     //     push.cardsArr(deck[idx])
     // });
 
-    // const card1 = deck[0]
+    const card1 = deck[0]
     const card2 = deck[1]
     const card3 = deck[2]
     const card4 = deck[3]
@@ -104,96 +104,120 @@ const Main = ({deck, traditionalCardDeck}) => {
     const card51 = deck[50]
     const card52 = deck[51]
     const card53 = deck[52]
-    return (<>
+
+    return (
+    <div className='main'>
     <h1>PaiGow Poker</h1>
 
     <h2>Player 1</h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[deck[0]]} {traditionalCardDeck[deck[0]]}</span>
-    <span className="card">{traditionalCardDeck[card2]} {traditionalCardDeck[card2]}</span>
-    <span className="card">{traditionalCardDeck[card3]} {traditionalCardDeck[card3]}</span>
-    <span className="card">{traditionalCardDeck[card4]} {traditionalCardDeck[card4]}</span>
-    <span className="card">{traditionalCardDeck[card5]} {traditionalCardDeck[card5]}</span>
-    <span className="card">{traditionalCardDeck[card6]} {traditionalCardDeck[card6]}</span>
-    <span className="card">{traditionalCardDeck[card7]} {traditionalCardDeck[card7]}</span>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card1]}</div>
+        <div className='symbol'>{traditionalCardDeck[card1]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card2]}</div>
+        <div className='symbol'>{traditionalCardDeck[card2]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card3]}</div>
+        <div className='symbol'>{traditionalCardDeck[card3]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card4]}</div>
+        <div className='symbol'>{traditionalCardDeck[card4]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card5]}</div>
+        <div className='symbol'>{traditionalCardDeck[card5]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card6]}</div>
+        <div className='symbol'>{traditionalCardDeck[card6]}</div>
+    </div>
+    <div className="card">
+        <div className='symbol'>{traditionalCardDeck[card7]}</div>
+        <div className='symbol'>{traditionalCardDeck[card7]}</div>
+    </div>
     </div>
 
     <h2>Player 2</h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card8]} {traditionalCardDeck[card8]}</span>
-    <span className="card">{traditionalCardDeck[card9]} {traditionalCardDeck[card9]}</span>
-    <span className="card">{traditionalCardDeck[card10]} {traditionalCardDeck[card10]}</span>
-    <span className="card">{traditionalCardDeck[card11]} {traditionalCardDeck[card11]}</span>
-    <span className="card">{traditionalCardDeck[card12]} {traditionalCardDeck[card12]}</span>
-    <span className="card">{traditionalCardDeck[card13]} {traditionalCardDeck[card13]}</span>
-    <span className="card">{traditionalCardDeck[card14]} {traditionalCardDeck[card14]}</span>
+    <div className="card">{traditionalCardDeck[card8]} {traditionalCardDeck[card8]}</div>
+    <div className="card">{traditionalCardDeck[card9]} {traditionalCardDeck[card9]}</div>
+    <div className="card">{traditionalCardDeck[card10]} {traditionalCardDeck[card10]}</div>
+    <div className="card">{traditionalCardDeck[card11]} {traditionalCardDeck[card11]}</div>
+    <div className="card">{traditionalCardDeck[card12]} {traditionalCardDeck[card12]}</div>
+    <div className="card">{traditionalCardDeck[card13]} {traditionalCardDeck[card13]}</div>
+    <div className="card">{traditionalCardDeck[card14]} {traditionalCardDeck[card14]}</div>
     </div>
 
     <h2>Player 3</h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card15]} {traditionalCardDeck[card15]}</span>
-    <span className="card">{traditionalCardDeck[card16]} {traditionalCardDeck[card16]}</span>
-    <span className="card">{traditionalCardDeck[card17]} {traditionalCardDeck[card17]}</span>
-    <span className="card">{traditionalCardDeck[card18]} {traditionalCardDeck[card18]}</span>
-    <span className="card">{traditionalCardDeck[card19]} {traditionalCardDeck[card19]}</span>
-    <span className="card">{traditionalCardDeck[card20]} {traditionalCardDeck[card20]}</span>
-    <span className="card">{traditionalCardDeck[card21]} {traditionalCardDeck[card21]}</span>
+    <div className="card">{traditionalCardDeck[card15]} {traditionalCardDeck[card15]}</div>
+    <div className="card">{traditionalCardDeck[card16]} {traditionalCardDeck[card16]}</div>
+    <div className="card">{traditionalCardDeck[card17]} {traditionalCardDeck[card17]}</div>
+    <div className="card">{traditionalCardDeck[card18]} {traditionalCardDeck[card18]}</div>
+    <div className="card">{traditionalCardDeck[card19]} {traditionalCardDeck[card19]}</div>
+    <div className="card">{traditionalCardDeck[card20]} {traditionalCardDeck[card20]}</div>
+    <div className="card">{traditionalCardDeck[card21]} {traditionalCardDeck[card21]}</div>
     </div>
 
     <h2>Player 4 </h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card22]} {traditionalCardDeck[card22]}</span>
-    <span className="card">{traditionalCardDeck[card23]} {traditionalCardDeck[card23]}</span>
-    <span className="card">{traditionalCardDeck[card24]} {traditionalCardDeck[card24]}</span>
-    <span className="card">{traditionalCardDeck[card25]} {traditionalCardDeck[card25]}</span>
-    <span className="card">{traditionalCardDeck[card26]} {traditionalCardDeck[card26]}</span>
-    <span className="card">{traditionalCardDeck[card27]} {traditionalCardDeck[card27]}</span>
-    <span className="card">{traditionalCardDeck[card28]} {traditionalCardDeck[card28]}</span>
+    <div className="card">{traditionalCardDeck[card22]} {traditionalCardDeck[card22]}</div>
+    <div className="card">{traditionalCardDeck[card23]} {traditionalCardDeck[card23]}</div>
+    <div className="card">{traditionalCardDeck[card24]} {traditionalCardDeck[card24]}</div>
+    <div className="card">{traditionalCardDeck[card25]} {traditionalCardDeck[card25]}</div>
+    <div className="card">{traditionalCardDeck[card26]} {traditionalCardDeck[card26]}</div>
+    <div className="card">{traditionalCardDeck[card27]} {traditionalCardDeck[card27]}</div>
+    <div className="card">{traditionalCardDeck[card28]} {traditionalCardDeck[card28]}</div>
     </div>
 
     <h2>Player 5 </h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card29]} {traditionalCardDeck[card29]}</span>
-    <span className="card">{traditionalCardDeck[card30]} {traditionalCardDeck[card30]}</span>
-    <span className="card">{traditionalCardDeck[card31]} {traditionalCardDeck[card31]}</span>
-    <span className="card">{traditionalCardDeck[card32]} {traditionalCardDeck[card32]}</span>
-    <span className="card">{traditionalCardDeck[card33]} {traditionalCardDeck[card33]}</span>
-    <span className="card">{traditionalCardDeck[card34]} {traditionalCardDeck[card34]}</span>
-    <span className="card">{traditionalCardDeck[card35]} {traditionalCardDeck[card35]}</span>
+    <div className="card">{traditionalCardDeck[card29]} {traditionalCardDeck[card29]}</div>
+    <div className="card">{traditionalCardDeck[card30]} {traditionalCardDeck[card30]}</div>
+    <div className="card">{traditionalCardDeck[card31]} {traditionalCardDeck[card31]}</div>
+    <div className="card">{traditionalCardDeck[card32]} {traditionalCardDeck[card32]}</div>
+    <div className="card">{traditionalCardDeck[card33]} {traditionalCardDeck[card33]}</div>
+    <div className="card">{traditionalCardDeck[card34]} {traditionalCardDeck[card34]}</div>
+    <div className="card">{traditionalCardDeck[card35]} {traditionalCardDeck[card35]}</div>
     </div>
 
     <h2>Player 6 </h2>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card36]} {traditionalCardDeck[card36]}</span>
-    <span className="card">{traditionalCardDeck[card37]} {traditionalCardDeck[card37]}</span>
-    <span className="card">{traditionalCardDeck[card38]} {traditionalCardDeck[card38]}</span>
-    <span className="card">{traditionalCardDeck[card39]} {traditionalCardDeck[card39]}</span>
-    <span className="card">{traditionalCardDeck[card40]} {traditionalCardDeck[card40]}</span>
-    <span className="card">{traditionalCardDeck[card41]} {traditionalCardDeck[card41]}</span>
-    <span className="card">{traditionalCardDeck[card42]} {traditionalCardDeck[card42]}</span>
+    <div className="card">{traditionalCardDeck[card36]} {traditionalCardDeck[card36]}</div>
+    <div className="card">{traditionalCardDeck[card37]} {traditionalCardDeck[card37]}</div>
+    <div className="card">{traditionalCardDeck[card38]} {traditionalCardDeck[card38]}</div>
+    <div className="card">{traditionalCardDeck[card39]} {traditionalCardDeck[card39]}</div>
+    <div className="card">{traditionalCardDeck[card40]} {traditionalCardDeck[card40]}</div>
+    <div className="card">{traditionalCardDeck[card41]} {traditionalCardDeck[card41]}</div>
+    <div className="card">{traditionalCardDeck[card42]} {traditionalCardDeck[card42]}</div>
     </div>
 
     <h2>Player 7 </h2>
     <div className="hand">
-        <span className="card">{traditionalCardDeck[card43]} {traditionalCardDeck[card43]}</span>
-        <span className="card">{traditionalCardDeck[card44]} {traditionalCardDeck[card44]}</span>
-        <span className="card">{traditionalCardDeck[card45]} {traditionalCardDeck[card45]}</span>
-        <span className="card">{traditionalCardDeck[card46]} {traditionalCardDeck[card46]}</span>
-        <span className="card">{traditionalCardDeck[card47]} {traditionalCardDeck[card47]}</span>
-        <span className="card">{traditionalCardDeck[card48]} {traditionalCardDeck[card48]}</span>
-        <span className="card">{traditionalCardDeck[card49]} {traditionalCardDeck[card49]}</span>
+        <div className="card">{traditionalCardDeck[card43]} {traditionalCardDeck[card43]}</div>
+        <div className="card">{traditionalCardDeck[card44]} {traditionalCardDeck[card44]}</div>
+        <div className="card">{traditionalCardDeck[card45]} {traditionalCardDeck[card45]}</div>
+        <div className="card">{traditionalCardDeck[card46]} {traditionalCardDeck[card46]}</div>
+        <div className="card">{traditionalCardDeck[card47]} {traditionalCardDeck[card47]}</div>
+        <div className="card">{traditionalCardDeck[card48]} {traditionalCardDeck[card48]}</div>
+        <div className="card">{traditionalCardDeck[card49]} {traditionalCardDeck[card49]}</div>
     </div>
 
     <h1>Burned Cards:</h1>
     <div className="hand">
-    <span className="card">{traditionalCardDeck[card50]} {traditionalCardDeck[card50]}</span>
-    <span className="card">{traditionalCardDeck[card51]} {traditionalCardDeck[card51]}</span>
-    <span className="card">{traditionalCardDeck[card52]} {traditionalCardDeck[card52]}</span>
-    <span className="card">{traditionalCardDeck[card53]} {traditionalCardDeck[card53]}</span>
+    <div className="card">{traditionalCardDeck[card50]} {traditionalCardDeck[card50]}</div>
+    <div className="card">{traditionalCardDeck[card51]} {traditionalCardDeck[card51]}</div>
+    <div className="card">{traditionalCardDeck[card52]} {traditionalCardDeck[card52]}</div>
+    <div className="card">{traditionalCardDeck[card53]} {traditionalCardDeck[card53]}</div>
     </div>
 
-    <h1>Thanks for checking ;)</h1>
-    </>)
+    <h1>Thanks for checking!</h1>
+    </div>
+    )
 }
 
 ReactDOM.render(
