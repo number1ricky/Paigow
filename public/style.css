@@ -1,10 +1,4 @@
-* {
-  background-color: aqua;
-  display: grid;
-  grid-template-columns: 15vw 15vw 15vw auto 15vw 15vw;
-  padding-top: 5vh;
-  background-color: whitesmoke;
-}
+
 
 /* body {
     background-color: aqua;
@@ -13,6 +7,7 @@
 } */
 
 .hand {
+  display: flex;
   flex-direction: row;
 }
 
